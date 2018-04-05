@@ -2,5 +2,5 @@ h1 {
 color: red;
 }
 .task-descriptions {
-  text-indent: 50px;
+  margin-left: 50px;
 }
