@@ -1,5 +1,6 @@
 h1 {
 color: deepskyblue;
+margin-bottom:-15px;
 }
 .task-descriptions {
   margin-left: 50px;
@@ -11,14 +12,16 @@ h3 {
 	border-color: grey;
 }
 .Header {
-	text-align: center;
+	text-align: right;
 }
 #container {
 	width: 800px;
 	margin: 50px auto 100px;
+	padding: 30px;
 }
 body {
 	font-family: Helvetica;
+	background-attachment: fixed;
 }
 .location {
 	margin-top: -10px;
