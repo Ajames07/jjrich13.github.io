@@ -1,3 +1,11 @@
+}
+body {
+	font-family:'Raleway', sans-serif;
+	background-attachment: fixed;
+}
+h1, h3, h4{
+	font-family: 'Roboto', sans-serif;
+}
 h1 {
 color: deepskyblue;
 margin-bottom:-15px;
@@ -10,19 +18,21 @@ margin-bottom:-15px;
 h3 {
 	border-bottom: solid;
 	border-color: grey;
+	border-width:3px;
 }
 .Header {
 	text-align: right;
+	position:relative;
+	border-bottom: solid;
+	border-color: grey;
+	border-width:3px;
 }
 #container {
 	width: 800px;
 	margin: 50px auto 100px;
 	padding: 30px;
 }
-body {
-	font-family: Helvetica;
-	background-attachment: fixed;
-}
+
 .location {
 	margin-top: -10px;
 	margin-left: 15px;
@@ -30,7 +40,7 @@ body {
 }
 .date{
 	float: right;
-	color: deepskyblue;
+	color: #34282C;
 }
 h4 {
 	margin-bottom: 0px;
@@ -40,4 +50,32 @@ h4 {
 }
 a {
 	color:black;
+}
+img {
+	border-radius: 10px;
+	width: 200px;
+}
+.facecircle{
+	display: block;
+	background-image: url(JeffPhoto.jpg);
+	background-position: 50% 50%;
+	background-repeat: no-repeat;
+	width: 300px;
+	height:300px;
+	border-radius: 15%;
+	background-size: 85%;
+}
+#headerinfo{
+	width:100%;
+	display:table-cell;
+	vertical-align: bottom;
+	padding-bottom:-5px;
+	font-size:150%;
+}
+#noborder {
+	border-bottom: hidden;
+}
+#tablerow{
+	position: relative;
+	min-height: 200px;
 }
